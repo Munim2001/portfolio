@@ -1,0 +1,29 @@
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+img{
+  width: 100%;
+  height: auto;
+}
+/*Section1 design starts here */
+.section1{
+  display: flex;
+  justify-content: space-between;
+}
+.half-width{
+  font-weight: 700;
+  width: 40%;
+  margin-left: 5%;
+  padding: 2%;
+}
+.half-width p{
+  text-align: justify;
+}
+.half-width span{
+  color: Blue;
+}
+.image{
+  width: 25%;
+  margin-top: 30px;
+  margin-right: 40px;
+}
