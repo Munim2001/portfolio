@@ -1,0 +1,53 @@
+BEGIN:VCALENDAR
+PRODID:-//zoom.us//iCalendar Event//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+CLASS:PUBLIC
+BEGIN:VTIMEZONE
+TZID:Asia/Dhaka
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Dhaka
+X-LIC-LOCATION:Asia/Dhaka
+BEGIN:STANDARD
+TZOFFSETFROM:+0600
+TZOFFSETTO:+0600
+TZNAME:BDT
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20200630T112106Z
+DTSTART;TZID=Asia/Dhaka:20200630T170000
+DTEND;TZID=Asia/Dhaka:20200630T180000
+SUMMARY:Lecture on Calculus: Sections: A & C
+RRULE:FREQ=WEEKLY;WKST=SU;UNTIL=20200811T120000;INTERVAL=1;BYDAY=TU
+UID:ZOOM65828042513
+TZID:Asia/Dhaka
+DESCRIPTION:Dr. Md. Masum Billah is inviting you to a scheduled BdREN Zoo
+ m meeting.\n\n--> Join BdREN Zoom Meeting from Laptop or Mobile:\nhttps:
+ //bdren.zoom.us/j/65828042513?pwd=UVZhVmxBWjlyWmhsVTBFbEthUFh4UT09\n\nMe
+ eting ID: 658 2804 2513\nPassword: 498954\nOne tap mobile\n+16699006833\
+ ,\,65828042513#\,\,1#\,498954# US (San Jose)\n+19292056099\,\,6582804251
+ 3#\,\,1#\,498954# US (New York)\n\nDial by your location\n        +1 669
+  900 6833 US (San Jose)\n        +1 929 205 6099 US (New York)\n        
+ +1 253 215 8782 US (Tacoma)\n        +1 301 715 8592 US (Germantown)\n  
+       +1 312 626 6799 US (Chicago)\n        +1 346 248 7799 US (Houston)
+ \n        +1 408 652 8184 US (San Jose)\nMeeting ID: 658 2804 2513\nPass
+ word: 498954\nFind your local number: https://bdren.zoom.us/u/cpkhWWyvu\
+ n\nJoin by SIP from Video Conferencing Device:\n65828042513@zoomcrc.com\
+ n\nJoin by H.323\n213.19.144.110 (EMEA)\n207.226.132.110 (Japan)\nMeetin
+ g ID: 658 2804 2513\nPassword: 498954\n\nJoin by Skype for Business\nhtt
+ ps://bdren.zoom.us/skype/65828042513\n\nNOTE: \n1. Always keep your mic 
+ mute while you are not speaking\n2. Use good headphone for better audio 
+ quality\n3. Please sit face up to the window or light source\n4. Adjust 
+ camera angle to make sure you’re on camera\n\nKnow Zoom Meeting Best Pra
+ ctices: https://bit.ly/2Wh5Y41 \n\nHappy Zooming with BdREN!\n
+LOCATION:https://bdren.zoom.us/j/65828042513?pwd=UVZhVmxBWjlyWmhsVTBFbEth
+ UFh4UT09
+BEGIN:VALARM
+TRIGGER:-PT10M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
